@@ -1,0 +1,20 @@
+* {
+    color: #DEEEEA ;
+}
+
+.principal {
+    background-color: #231E23;
+}
+
+.titulo {
+    color: #BF1363;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.tituloPersonaje {
+    min-height: 4rem;
+    border-top: 0.5rem solid #BF1363;
+}

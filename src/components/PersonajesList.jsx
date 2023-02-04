@@ -14,8 +14,9 @@ const PersonajesList = () => {
       ) : (
         <div className="row">
           {personajes.map((personaje) => {
+            <hr />
             return (
-              <div key={personaje.id} className="col-md-4">
+              <div key={personaje.id} className="col-md-6 col-xl-4">
                 <Personaje  personaje={personaje} />
               </div>
             );

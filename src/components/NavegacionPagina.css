@@ -1,0 +1,22 @@
+.botones{
+font-weight: 0;
+font-size: 14px;
+color: #DEEEEA;
+background-color: #39a6a3;
+padding: 10px 30px;
+border: solid #39a6a3 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 0ms;
+transform: translateY(0);
+cursor: pointer;
+}
+
+.botones:hover{
+transition : 0ms;
+padding: 10px 29px;
+transform : translateY(-0px);
+background-color: #DEEEEA;
+color: #39a6a3;
+border: solid 2px #39a6a3;
+}
