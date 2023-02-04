@@ -22,7 +22,7 @@ const NavegacionPagina = () => {
         </div>
       )}
       <div className="col-6 text-center">
-        <p className='paginaActual mt-2'>Pagina: {pagina}</p>
+        <p className='paginaActual mt-2'>Pagina {pagina}</p>
       </div>
       {pagina === 42 ? (
         <div className="col-3 text-center">
