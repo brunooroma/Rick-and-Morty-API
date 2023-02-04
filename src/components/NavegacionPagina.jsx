@@ -5,11 +5,6 @@ import { GlobalContext } from "../context/GlobalContext";
 const NavegacionPagina = () => {
   const { pagina, setPagina } = useContext(GlobalContext);
 
-  let estiloBotonPagina = {
-    textDecoration: "none",
-    color: "black",
-  };
-
   return (
     <div className="d-flex align-items-center">
       {pagina === 1 ? (
@@ -20,7 +15,6 @@ const NavegacionPagina = () => {
         <div className="col-3 text-center">
           <button
             className="botones"
-            style={estiloBotonPagina}
             onClick={() => setPagina(pagina - 1)}
           >
             Pagina {pagina - 1}
@@ -28,7 +22,7 @@ const NavegacionPagina = () => {
         </div>
       )}
       <div className="col-6 text-center">
-        <p className="mt-3">Pagina: {pagina}</p>
+        <p className='paginaActual mt-2'>Pagina: {pagina}</p>
       </div>
       {pagina === 42 ? (
         <div className="col-3 text-center">
@@ -38,7 +32,6 @@ const NavegacionPagina = () => {
         <div className="col-3 text-center">
           <button
             className="botones"
-            style={estiloBotonPagina}
             onClick={() => setPagina(pagina + 1)}
           >
             Pagina {pagina + 1}

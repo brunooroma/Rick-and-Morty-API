@@ -1,6 +1,5 @@
 .botones{
-font-weight: 0;
-font-size: 14px;
+font-size: 1rem;
 color: #DEEEEA;
 background-color: #39a6a3;
 padding: 10px 30px;
@@ -19,4 +18,8 @@ transform : translateY(-0px);
 background-color: #DEEEEA;
 color: #39a6a3;
 border: solid 2px #39a6a3;
+}
+
+.paginaActual {
+    font-size: 1.5rem;
 }
